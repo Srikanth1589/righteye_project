@@ -26,7 +26,7 @@ else{
 	}
 	else if( attempt == 4){
 	alert("Your Email address is locked and invalid. Please contact RightEye Support at 800-301-0803.")
-	
+	document.getElementById("submit").disabled = true;
 }
 }
 }
